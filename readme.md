@@ -1,6 +1,6 @@
+### 视频流 直播播放 dash
 
-
-### 使用命令
+### 生成dash命令
 
 #### 方法一
 ffmpeg -re -i input.mkv -map 0:v -map 0:a -c:v libx264 -c:a aac  -f dash output/output.mpd
